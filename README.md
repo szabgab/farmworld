@@ -27,7 +27,7 @@ poetry publish
 # Test
 
 ```python
-PYTHONPATH=. python test/test_env.py
+PYTHONPATH=. .venv/bin/python test/test_env.py
 ```
 
 # Current Status
