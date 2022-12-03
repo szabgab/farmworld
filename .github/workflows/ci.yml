@@ -25,6 +25,7 @@ jobs:
       run: |
         make venv
         make install
+        pip install pytest
 
     - name: Check Python version
       run: python -V
